@@ -115,14 +115,6 @@ public class Vector2D {
         return vec;
     }
 
-    public static void main(String[] args) {
-        for (int i = 0; i < 10; i++) {
-            Vector2D vec = randomVector(10);
-            vec.setMag(10);
-            System.out.println(vec.len() + " " + vec.toString());
-        }
-    }
-
     @Override
     public boolean equals(Object vec) {
         if (!(vec instanceof Vector2D)){
